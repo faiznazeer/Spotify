@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Raleway } from 'next/font/google';
 import "./globals.css";
+import NavBar from "@/components/NavBar";
 
 const raleway = Raleway({
   subsets: ['latin'],
@@ -22,8 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${raleway.variable} antialiased`}
+        className={`${raleway.variable} antialiased bg-black`}
       >
+        <NavBar />
         {children}
       </body>
     </html>
