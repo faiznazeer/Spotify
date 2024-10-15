@@ -17,7 +17,7 @@ export default function SideBar() {
                     <div className="w-[40px] mr-[10px]">
                         <Pin />
                     </div>
-                    <span className="my-auto">Pins</span>
+                    <a className="hover:underline my-auto" href="#">Pins</a>
                 </div>
                 <div className="w-[40px] mr-[10px]">
                     <RightArrow />
@@ -30,7 +30,7 @@ export default function SideBar() {
                     <div className="w-[40px] mr-[10px]">
                         <Playlist />
                     </div>
-                    <span className="my-auto">Playlists</span>
+                    <a className="hover:underline my-auto" href="#">Playlists</a>
                 </div>
                 <div className="w-[40px] mr-[10px]">
                     <RightArrow />
@@ -42,7 +42,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <Like />
                 </div>
-                <span>Liked Songs</span>
+                <a className="hover:underline" href="#">Liked Songs</a>
             </li>
         </ul>
         <ul className="ml-[10px]">
@@ -50,7 +50,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <Saves />
                 </div>
-                <span>Saves</span>
+                <a className="hover:underline" href="#">Saves</a>
             </li>
         </ul>
         <ul className="ml-[10px]">
@@ -58,7 +58,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <Albums />
                 </div>
-                <span>Albums</span>
+                <a className="hover:underline" href="#">Albums</a>
             </li>
         </ul>
         <ul className="ml-[10px]">
@@ -66,7 +66,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <Folders />
                 </div>
-                <span>Folders</span>
+                <a className="hover:underline" href="#">Folders</a>
             </li>
         </ul>
         <ul className="ml-[10px]">
@@ -74,7 +74,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <Podcasts />
                 </div>
-                <span>Podcasts</span>
+                <a className="hover:underline" href="#">Podcasts</a>
             </li>
         </ul>
         <ul className="ml-[10px]">
@@ -82,7 +82,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <AudioBooks />
                 </div>
-                <span>AudioBooks</span>
+                <a className="hover:underline" href="#">AudioBooks</a>
             </li>
         </ul>
         <ul className="ml-[10px]">
@@ -90,7 +90,7 @@ export default function SideBar() {
                 <div className="w-[40px] mr-[10px]">
                     <Artists />
                 </div>
-                <span>Artists</span>
+                <a className="hover:underline" href="#">Artists</a>
             </li>
         </ul>
 
